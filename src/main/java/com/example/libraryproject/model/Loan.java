@@ -36,6 +36,8 @@ public class Loan {
 
     public Book getBook() { return book; }
 
+    public Reader getReader() { return reader; }
+
     public LocalDate getReturnDate() { return returnDate; }
     public void setReturnDate(LocalDate returnDate) { this.returnDate = returnDate; }
 
